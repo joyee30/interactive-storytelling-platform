@@ -1,0 +1,47 @@
+{
+    "stories": [
+      {
+        "title": "The Lost Treasure",
+        "start": {
+          "text": "You are an adventurer searching for hidden treasure in a mysterious jungle. After days of traveling, you arrive at a fork in the road.",
+          "options": [
+            {
+              "optionText": "Take the left path, which leads deeper into the dense jungle.",
+              "next": "left_path"
+            },
+            {
+              "optionText": "Take the right path, which follows a river.",
+              "next": "right_path"
+            }
+          ]
+        },
+        "left_path": {
+          "text": "You venture deeper into the jungle, where the sounds of wild animals grow louder. After an hour, you find a hidden cave.",
+          "options": [
+            {
+              "optionText": "Enter the cave.",
+              "next": "cave"
+            },
+            {
+              "optionText": "Continue through the jungle.",
+              "next": "jungle_continued"
+            }
+          ]
+        },
+        "right_path": {
+          "text": "You follow the river and soon discover a small village. The villagers seem friendly.",
+          "options": [
+            {
+              "optionText": "Ask the villagers for directions.",
+              "next": "village_directions"
+            },
+            {
+              "optionText": "Ignore the village and continue along the river.",
+              "next": "river_continued"
+            }
+          ]
+        }
+      }
+    ]
+  }
+  
